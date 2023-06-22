@@ -1,0 +1,5 @@
+<launch>
+  <arg name="markers_file"/>
+  <node pkg="tagslam_viz" type="pub_text_markers.py" name="pub_text_markers"
+	args="$(arg markers_file) map" output="screen"/>
+</launch>

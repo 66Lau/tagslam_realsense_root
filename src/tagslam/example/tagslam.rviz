@@ -1,0 +1,878 @@
+Panels:
+  - Class: rviz/Displays
+    Help Height: 0
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+        - /Status1
+        - /TF1
+        - /Odometry1
+        - /Odometry1/Shape1
+      Splitter Ratio: 0.591885448
+    Tree Height: 1126
+  - Class: rviz/Selection
+    Name: Selection
+  - Class: rviz/Tool Properties
+    Expanded:
+      - /2D Pose Estimate1
+      - /2D Nav Goal1
+      - /Publish Point1
+    Name: Tool Properties
+    Splitter Ratio: 0.588679016
+  - Class: rviz/Views
+    Expanded:
+      - /Current View1
+    Name: Views
+    Splitter Ratio: 0.5
+  - Class: rviz/Time
+    Experimental: false
+    Name: Time
+    SyncMode: 0
+    SyncSource: ""
+Toolbars:
+  toolButtonStyle: 2
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 0.5
+      Cell Size: 1
+      Class: rviz/Grid
+      Color: 160; 160; 164
+      Enabled: true
+      Line Style:
+        Line Width: 0.0299999993
+        Value: Lines
+      Name: Grid
+      Normal Cell Count: 0
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Plane: XY
+      Plane Cell Count: 160
+      Reference Frame: <Fixed Frame>
+      Value: true
+    - Class: rviz/TF
+      Enabled: true
+      Frame Timeout: 90000
+      Frames:
+        All Enabled: false
+        cam0:
+          Value: true
+        cam1:
+          Value: true
+        map:
+          Value: false
+        o_tag_0:
+          Value: true
+        o_tag_100:
+          Value: true
+        o_tag_101:
+          Value: true
+        o_tag_103:
+          Value: true
+        o_tag_104:
+          Value: true
+        o_tag_105:
+          Value: true
+        o_tag_106:
+          Value: true
+        o_tag_109:
+          Value: true
+        o_tag_11:
+          Value: true
+        o_tag_110:
+          Value: true
+        o_tag_113:
+          Value: true
+        o_tag_114:
+          Value: true
+        o_tag_115:
+          Value: true
+        o_tag_118:
+          Value: true
+        o_tag_14:
+          Value: true
+        o_tag_15:
+          Value: true
+        o_tag_16:
+          Value: true
+        o_tag_17:
+          Value: true
+        o_tag_19:
+          Value: true
+        o_tag_21:
+          Value: true
+        o_tag_22:
+          Value: true
+        o_tag_24:
+          Value: true
+        o_tag_25:
+          Value: true
+        o_tag_26:
+          Value: true
+        o_tag_28:
+          Value: true
+        o_tag_3:
+          Value: true
+        o_tag_30:
+          Value: true
+        o_tag_31:
+          Value: true
+        o_tag_35:
+          Value: true
+        o_tag_36:
+          Value: true
+        o_tag_37:
+          Value: true
+        o_tag_38:
+          Value: true
+        o_tag_39:
+          Value: true
+        o_tag_4:
+          Value: true
+        o_tag_40:
+          Value: true
+        o_tag_41:
+          Value: true
+        o_tag_42:
+          Value: true
+        o_tag_420:
+          Value: true
+        o_tag_43:
+          Value: true
+        o_tag_45:
+          Value: true
+        o_tag_46:
+          Value: true
+        o_tag_47:
+          Value: true
+        o_tag_49:
+          Value: true
+        o_tag_5:
+          Value: true
+        o_tag_51:
+          Value: true
+        o_tag_52:
+          Value: true
+        o_tag_520:
+          Value: true
+        o_tag_53:
+          Value: true
+        o_tag_54:
+          Value: true
+        o_tag_55:
+          Value: true
+        o_tag_56:
+          Value: true
+        o_tag_57:
+          Value: true
+        o_tag_58:
+          Value: true
+        o_tag_59:
+          Value: true
+        o_tag_6:
+          Value: true
+        o_tag_60:
+          Value: true
+        o_tag_61:
+          Value: true
+        o_tag_62:
+          Value: true
+        o_tag_65:
+          Value: true
+        o_tag_66:
+          Value: true
+        o_tag_67:
+          Value: true
+        o_tag_68:
+          Value: true
+        o_tag_69:
+          Value: true
+        o_tag_7:
+          Value: true
+        o_tag_70:
+          Value: true
+        o_tag_71:
+          Value: true
+        o_tag_72:
+          Value: true
+        o_tag_74:
+          Value: true
+        o_tag_77:
+          Value: true
+        o_tag_78:
+          Value: true
+        o_tag_79:
+          Value: true
+        o_tag_8:
+          Value: true
+        o_tag_80:
+          Value: true
+        o_tag_81:
+          Value: true
+        o_tag_85:
+          Value: true
+        o_tag_88:
+          Value: true
+        o_tag_89:
+          Value: true
+        o_tag_91:
+          Value: true
+        o_tag_95:
+          Value: true
+        o_tag_96:
+          Value: true
+        o_tag_97:
+          Value: true
+        o_tag_98:
+          Value: true
+        rig:
+          Value: true
+        tag_0:
+          Value: false
+        tag_100:
+          Value: true
+        tag_101:
+          Value: true
+        tag_103:
+          Value: true
+        tag_104:
+          Value: true
+        tag_105:
+          Value: true
+        tag_106:
+          Value: true
+        tag_109:
+          Value: true
+        tag_11:
+          Value: true
+        tag_110:
+          Value: true
+        tag_113:
+          Value: true
+        tag_114:
+          Value: true
+        tag_115:
+          Value: true
+        tag_118:
+          Value: true
+        tag_14:
+          Value: true
+        tag_15:
+          Value: true
+        tag_16:
+          Value: true
+        tag_17:
+          Value: true
+        tag_19:
+          Value: true
+        tag_21:
+          Value: true
+        tag_22:
+          Value: true
+        tag_24:
+          Value: true
+        tag_25:
+          Value: true
+        tag_26:
+          Value: true
+        tag_28:
+          Value: true
+        tag_3:
+          Value: false
+        tag_30:
+          Value: true
+        tag_31:
+          Value: true
+        tag_35:
+          Value: true
+        tag_36:
+          Value: true
+        tag_37:
+          Value: true
+        tag_38:
+          Value: true
+        tag_39:
+          Value: true
+        tag_4:
+          Value: true
+        tag_40:
+          Value: true
+        tag_41:
+          Value: true
+        tag_42:
+          Value: true
+        tag_420:
+          Value: true
+        tag_43:
+          Value: true
+        tag_45:
+          Value: true
+        tag_46:
+          Value: true
+        tag_47:
+          Value: true
+        tag_49:
+          Value: true
+        tag_5:
+          Value: true
+        tag_51:
+          Value: true
+        tag_52:
+          Value: true
+        tag_520:
+          Value: true
+        tag_53:
+          Value: true
+        tag_54:
+          Value: true
+        tag_55:
+          Value: true
+        tag_56:
+          Value: true
+        tag_57:
+          Value: true
+        tag_58:
+          Value: true
+        tag_59:
+          Value: true
+        tag_6:
+          Value: true
+        tag_60:
+          Value: true
+        tag_61:
+          Value: true
+        tag_62:
+          Value: true
+        tag_65:
+          Value: true
+        tag_66:
+          Value: true
+        tag_67:
+          Value: true
+        tag_68:
+          Value: true
+        tag_69:
+          Value: true
+        tag_7:
+          Value: true
+        tag_70:
+          Value: true
+        tag_71:
+          Value: true
+        tag_72:
+          Value: true
+        tag_74:
+          Value: true
+        tag_77:
+          Value: true
+        tag_78:
+          Value: true
+        tag_79:
+          Value: true
+        tag_8:
+          Value: true
+        tag_80:
+          Value: true
+        tag_81:
+          Value: true
+        tag_85:
+          Value: true
+        tag_88:
+          Value: true
+        tag_89:
+          Value: true
+        tag_91:
+          Value: true
+        tag_95:
+          Value: true
+        tag_96:
+          Value: true
+        tag_97:
+          Value: true
+        tag_98:
+          Value: true
+        top_floor:
+          Value: true
+      Marker Scale: 1
+      Name: TF
+      Show Arrows: false
+      Show Axes: true
+      Show Names: true
+      Tree:
+        map:
+          rig:
+            cam0:
+              {}
+            cam1:
+              {}
+          top_floor:
+            o_tag_0:
+              {}
+            o_tag_100:
+              {}
+            o_tag_101:
+              {}
+            o_tag_103:
+              {}
+            o_tag_104:
+              {}
+            o_tag_105:
+              {}
+            o_tag_106:
+              {}
+            o_tag_109:
+              {}
+            o_tag_11:
+              {}
+            o_tag_110:
+              {}
+            o_tag_113:
+              {}
+            o_tag_114:
+              {}
+            o_tag_115:
+              {}
+            o_tag_118:
+              {}
+            o_tag_14:
+              {}
+            o_tag_15:
+              {}
+            o_tag_16:
+              {}
+            o_tag_17:
+              {}
+            o_tag_19:
+              {}
+            o_tag_21:
+              {}
+            o_tag_22:
+              {}
+            o_tag_24:
+              {}
+            o_tag_25:
+              {}
+            o_tag_26:
+              {}
+            o_tag_28:
+              {}
+            o_tag_3:
+              {}
+            o_tag_30:
+              {}
+            o_tag_31:
+              {}
+            o_tag_35:
+              {}
+            o_tag_36:
+              {}
+            o_tag_37:
+              {}
+            o_tag_38:
+              {}
+            o_tag_39:
+              {}
+            o_tag_4:
+              {}
+            o_tag_40:
+              {}
+            o_tag_41:
+              {}
+            o_tag_42:
+              {}
+            o_tag_420:
+              {}
+            o_tag_43:
+              {}
+            o_tag_45:
+              {}
+            o_tag_46:
+              {}
+            o_tag_47:
+              {}
+            o_tag_49:
+              {}
+            o_tag_5:
+              {}
+            o_tag_51:
+              {}
+            o_tag_52:
+              {}
+            o_tag_520:
+              {}
+            o_tag_53:
+              {}
+            o_tag_54:
+              {}
+            o_tag_55:
+              {}
+            o_tag_56:
+              {}
+            o_tag_57:
+              {}
+            o_tag_58:
+              {}
+            o_tag_59:
+              {}
+            o_tag_6:
+              {}
+            o_tag_60:
+              {}
+            o_tag_61:
+              {}
+            o_tag_62:
+              {}
+            o_tag_65:
+              {}
+            o_tag_66:
+              {}
+            o_tag_67:
+              {}
+            o_tag_68:
+              {}
+            o_tag_69:
+              {}
+            o_tag_7:
+              {}
+            o_tag_70:
+              {}
+            o_tag_71:
+              {}
+            o_tag_72:
+              {}
+            o_tag_74:
+              {}
+            o_tag_77:
+              {}
+            o_tag_78:
+              {}
+            o_tag_79:
+              {}
+            o_tag_8:
+              {}
+            o_tag_80:
+              {}
+            o_tag_81:
+              {}
+            o_tag_85:
+              {}
+            o_tag_88:
+              {}
+            o_tag_89:
+              {}
+            o_tag_91:
+              {}
+            o_tag_95:
+              {}
+            o_tag_96:
+              {}
+            o_tag_97:
+              {}
+            o_tag_98:
+              {}
+            tag_0:
+              {}
+            tag_100:
+              {}
+            tag_101:
+              {}
+            tag_103:
+              {}
+            tag_104:
+              {}
+            tag_105:
+              {}
+            tag_106:
+              {}
+            tag_109:
+              {}
+            tag_11:
+              {}
+            tag_110:
+              {}
+            tag_113:
+              {}
+            tag_114:
+              {}
+            tag_115:
+              {}
+            tag_118:
+              {}
+            tag_14:
+              {}
+            tag_15:
+              {}
+            tag_16:
+              {}
+            tag_17:
+              {}
+            tag_19:
+              {}
+            tag_21:
+              {}
+            tag_22:
+              {}
+            tag_24:
+              {}
+            tag_25:
+              {}
+            tag_26:
+              {}
+            tag_28:
+              {}
+            tag_3:
+              {}
+            tag_30:
+              {}
+            tag_31:
+              {}
+            tag_35:
+              {}
+            tag_36:
+              {}
+            tag_37:
+              {}
+            tag_38:
+              {}
+            tag_39:
+              {}
+            tag_4:
+              {}
+            tag_40:
+              {}
+            tag_41:
+              {}
+            tag_42:
+              {}
+            tag_420:
+              {}
+            tag_43:
+              {}
+            tag_45:
+              {}
+            tag_46:
+              {}
+            tag_47:
+              {}
+            tag_49:
+              {}
+            tag_5:
+              {}
+            tag_51:
+              {}
+            tag_52:
+              {}
+            tag_520:
+              {}
+            tag_53:
+              {}
+            tag_54:
+              {}
+            tag_55:
+              {}
+            tag_56:
+              {}
+            tag_57:
+              {}
+            tag_58:
+              {}
+            tag_59:
+              {}
+            tag_6:
+              {}
+            tag_60:
+              {}
+            tag_61:
+              {}
+            tag_62:
+              {}
+            tag_65:
+              {}
+            tag_66:
+              {}
+            tag_67:
+              {}
+            tag_68:
+              {}
+            tag_69:
+              {}
+            tag_7:
+              {}
+            tag_70:
+              {}
+            tag_71:
+              {}
+            tag_72:
+              {}
+            tag_74:
+              {}
+            tag_77:
+              {}
+            tag_78:
+              {}
+            tag_79:
+              {}
+            tag_8:
+              {}
+            tag_80:
+              {}
+            tag_81:
+              {}
+            tag_85:
+              {}
+            tag_88:
+              {}
+            tag_89:
+              {}
+            tag_91:
+              {}
+            tag_95:
+              {}
+            tag_96:
+              {}
+            tag_97:
+              {}
+            tag_98:
+              {}
+      Update Interval: 0
+      Value: true
+    - Angle Tolerance: 0.200000003
+      Class: rviz/Odometry
+      Covariance:
+        Orientation:
+          Alpha: 0.5
+          Color: 255; 255; 127
+          Color Style: Unique
+          Frame: Local
+          Offset: 1
+          Scale: 1
+          Value: true
+        Position:
+          Alpha: 0.300000012
+          Color: 204; 51; 204
+          Scale: 1
+          Value: true
+        Value: true
+      Enabled: true
+      Keep: 10000
+      Name: Odometry
+      Position Tolerance: 0.200000003
+      Shape:
+        Alpha: 1
+        Axes Length: 1
+        Axes Radius: 0.100000001
+        Color: 255; 25; 0
+        Head Length: 0.300000012
+        Head Radius: 0.100000001
+        Shaft Length: 1
+        Shaft Radius: 0.0500000007
+        Value: Axes
+      Topic: /tagslam/odom/body_rig
+      Unreliable: false
+      Value: true
+  Enabled: true
+  Global Options:
+    Background Color: 48; 48; 48
+    Default Light: true
+    Fixed Frame: map
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz/Interact
+      Hide Inactive Objects: true
+    - Class: rviz/MoveCamera
+    - Class: rviz/Select
+    - Class: rviz/FocusCamera
+    - Class: rviz/Measure
+    - Class: rviz/SetInitialPose
+      Topic: /initialpose
+    - Class: rviz/SetGoal
+      Topic: /move_base_simple/goal
+    - Class: rviz/PublishPoint
+      Single click: true
+      Topic: /clicked_point
+  Value: true
+  Views:
+    Current:
+      Class: rviz/Orbit
+      Distance: 39.5889053
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.0599999987
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Focal Point:
+        X: 15.273818
+        Y: 1.56183636
+        Z: 0.00298560155
+      Focal Shape Fixed Size: false
+      Focal Shape Size: 0.0500000007
+      Invert Z Axis: false
+      Name: Current View
+      Near Clip Distance: 0.00999999978
+      Pitch: 1.56979632
+      Target Frame: body_wand
+      Value: Orbit (rviz)
+      Yaw: 4.70358229
+    Saved:
+      - Class: rviz/Orbit
+        Distance: 10
+        Enable Stereo Rendering:
+          Stereo Eye Separation: 0.0599999987
+          Stereo Focal Distance: 1
+          Swap Stereo Eyes: false
+          Value: false
+        Focal Point:
+          X: 0
+          Y: 0
+          Z: 0
+        Focal Shape Fixed Size: true
+        Focal Shape Size: 0.0500000007
+        Invert Z Axis: false
+        Name: Orbit
+        Near Clip Distance: 0.00999999978
+        Pitch: 0.785398006
+        Target Frame: <Fixed Frame>
+        Value: Orbit (rviz)
+        Yaw: 0.785398006
+      - Class: rviz/Orbit
+        Distance: 10
+        Enable Stereo Rendering:
+          Stereo Eye Separation: 0.0599999987
+          Stereo Focal Distance: 1
+          Swap Stereo Eyes: false
+          Value: false
+        Focal Point:
+          X: 0
+          Y: 0
+          Z: 0
+        Focal Shape Fixed Size: true
+        Focal Shape Size: 0.0500000007
+        Invert Z Axis: false
+        Name: Orbit
+        Near Clip Distance: 0.00999999978
+        Pitch: 0.785398006
+        Target Frame: <Fixed Frame>
+        Value: Orbit (rviz)
+        Yaw: 0.785398006
+Window Geometry:
+  Displays:
+    collapsed: false
+  Height: 1401
+  Hide Left Dock: false
+  Hide Right Dock: false
+  QMainWindow State: 000000ff00000000fd0000000400000000000002a3000004c6fc020000001ffb0000001200530065006c0065006300740069006f006e00000001e10000009b0000007c00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb00000014006c00650066007400200069006d0061006700650100000029000001a30000000000000000fc00000029000004c60000011200fffffffa000000010100000002fb0000000c00630061006d0065007200610000000000ffffffff0000000000000000fb000000100044006900730070006c0061007900730100000000000008540000020d00fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261fb0000000a0049006d00610067006501000002520000025c0000000000000000fb0000000e006d006f006e0073007400610072010000035c000000230000000000000000fb0000000a0049006d006100670065010000037f0000015e0000000000000000fb0000000e006d006f006e007300740061007201000003dd000000230000000000000000fb0000001c006d006f006e0073007400610072005f00630061006d00650072006100000001b70000019f0000000000000000fb000000140072006500630074005f0069006d0067005f00300000000276000002790000000000000000fb00000014006f0064006f006d00200069006d0061006700650000000396000001590000000000000000fb000000120063006f006c006f0072002000630061006d00000004cc000000230000000000000000fb00000030006d006f006e0073007400610072002000630061006d00650072006100200064006900730074006f00720074006500640000000069000004860000000000000000fb0000002a0075006e0064006900730074006f0072007400650064005f006f007600650072006c006100790065006401000002fc000001f30000000000000000fb0000000c00430061006d0065007200610000000241000002ae0000000000000000fb0000001c0064006500740065006300740065006400200069006d00610067006501000004cc000000230000000000000000fb0000000c00430061006d0065007200610100000257000002980000000000000000fb00000022006d006f006e007300740061007200200069006e00740065006e007300690074007900000001b0000001b40000000000000000fb00000024006c006500660074002000730074006500720065006f002000630061006d006500720061000000022d000001dc0000000000000000fb0000001200760069006f00200064006500620075006701000004cc000000230000000000000000fb00000016006c006500660074002000630061006d0065007200610100000295000001990000000000000000fb0000001800720069006700680074002000630061006d0065007200610000000269000001750000000000000000fb000000160064006500620075006700200069006d00610067006501000003d9000001160000000000000000fb0000000800630061006d00360100000411000000de0000000000000000fb0000000a0049006d00610067006501000002700000027f0000000000000000fb0000001800630061006d00650072006100200069006d0061006700650100000238000002b700000000000000000000000100000170000004c6fc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a005600690065007700730100000029000004c6000000f000fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e10000019700000003000009fc00000054fc0100000002fb0000000800540069006d00650100000000000009fc000004c300fffffffb0000000800540069006d00650100000000000004500000000000000000000005d1000004c600000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730000000000ffffffff0000000000000000
+  Selection:
+    collapsed: false
+  Time:
+    collapsed: false
+  Tool Properties:
+    collapsed: false
+  Views:
+    collapsed: false
+  Width: 2556
+  X: 0
+  Y: 18

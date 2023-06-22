@@ -1,0 +1,18 @@
+<launch>
+
+    <include file="$(find realsense2_camera)/launch/demo_t265.launch">
+    </include>
+
+    <include file="$(find tagslam)/launch/tagslam_online_t265.launch">
+        <arg name="run_online" value="true"/>
+    </include>
+
+    <include file="$(find tagslam)/launch/apriltag_detector_node_t265.launch">
+    </include>
+
+    <node name="tagslam_example_rviz" pkg="rviz" type="rviz" args="-d $(find tagslam)/online/t265/tagslam_online.rviz" required="true" />
+
+<node pkg="tf" type="static_transform_publisher" name="link_name" args="0 0 0 0 0 0 map camera_odom_frame 0" />
+
+</launch>
+

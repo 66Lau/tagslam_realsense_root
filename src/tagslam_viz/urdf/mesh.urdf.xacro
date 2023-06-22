@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org;wiki/xacro" name="robot_$(arg name)">
+  <link name="$(arg link_name)">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 $(arg yaw)"/>
+      <geometry>
+	<mesh filename="package://tagslam_viz/urdf/$(arg name).dae"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

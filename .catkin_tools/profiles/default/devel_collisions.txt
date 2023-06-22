@@ -1,0 +1,1 @@
+/home/lau/tagslam_root/devel/./cmake.lock 20

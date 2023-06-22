@@ -1,0 +1,8 @@
+<launch>
+  <arg name="name"/>
+  <arg name="link_name"/>
+  <arg name="urdf_dir" default="$(find tagslam_viz)/urdf"/>
+  <param name="$(arg name)"
+	 command="$(find xacro)/xacro '$(arg urdf_dir)/mesh.urdf.xacro' name:=$(arg name) link_name:=$(arg link_name) yaw:=0.785398"/>
+
+</launch>

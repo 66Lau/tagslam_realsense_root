@@ -1,0 +1,15 @@
+<launch>
+    <include file="$(find usb_cam)/launch/usb_cam-test.launch">
+
+    </include>
+
+    <include file="$(find tagslam)/launch/tagslam_online.launch">
+        <arg name="run_online" value="true"/>
+    </include>
+
+    <include file="$(find tagslam)/launch/apriltag_detector_node.launch">
+    </include>
+
+    <node name="tagslam_example_rviz" pkg="rviz" type="rviz" args="-d $(find tagslam)/online/tagslam_online.rviz" required="true" />
+</launch>
+

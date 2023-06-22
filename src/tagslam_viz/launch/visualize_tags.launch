@@ -1,0 +1,8 @@
+<launch>
+  <arg name="family"   default="36_11"/>
+  <arg name="mesh_dir" default="package://tagslam_viz/tags/$(arg family)"/>
+  <arg name="tag_id_file" default="$(find tagslam_viz)/config/example_tag_id.yaml"/>
+  <param name="tags"
+	 command="$(find tagslam_viz)/src/make_tags.py --file $(arg tag_id_file) --family $(arg family) --mesh_dir $(arg mesh_dir)"/>
+
+</launch>

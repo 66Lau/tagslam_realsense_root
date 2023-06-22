@@ -1,0 +1,21 @@
+
+
+cam0:
+  camera_model: pinhole
+  intrinsics: [285.474, 285.378, 420.059, 389.685]
+  distortion_model: equidistant
+  distortion_coeffs: [-0.0058, 0.0435, -0.0416, 0.0078]
+  resolution: [800, 848]
+  rostopic: /camera/fisheye1/image_raw/compressed
+  tagtopic: /detector1/tags
+  rig_body: rig
+
+cam1:
+ camera_model: pinhole
+ intrinsics: [285.355, 285.423, 419.122, 394.172]
+ distortion_model: equidistant
+ distortion_coeffs: [-0.00390, 0.03643, -0.03358, 0.00484]
+ resolution: [800, 848]
+ rostopic: /camera/fisheye2/image_raw/compressed
+ tagtopic: /detector2/tags
+ rig_body: rig

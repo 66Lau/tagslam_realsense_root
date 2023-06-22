@@ -1,0 +1,6 @@
+<launch>
+  <arg name="cameras_file"
+       default="$(find tagslam_viz)/config/example_cameras.yaml"/>
+  <param name="cameras"
+	 command="$(find tagslam_viz)/src/make_cameras.py --file $(arg cameras_file)"/>
+</launch>
