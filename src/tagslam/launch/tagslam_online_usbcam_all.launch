@@ -10,6 +10,6 @@
     <include file="$(find tagslam)/launch/apriltag_detector_node.launch">
     </include>
 
-    <node name="tagslam_example_rviz" pkg="rviz" type="rviz" args="-d $(find tagslam)/online/tagslam_online.rviz" required="true" />
+    <node name="tagslam_example_rviz" pkg="rviz" type="rviz" args="-d $(find tagslam)/online/usb_cam/tagslam_online.rviz" required="true" />
 </launch>
 
