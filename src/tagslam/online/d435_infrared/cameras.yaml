@@ -1,0 +1,23 @@
+
+
+cam0:
+  camera_model: pinhole
+  # fx,fy,cx,cy
+  intrinsics: [647.2843627929688, 647.2843627929688, 644.4448852539062, 360.70361328125]
+  distortion_model: plumb_bob
+  distortion_coeffs: [0, 0, 0, 0, 0]
+  resolution: [1280, 720]
+  rostopic: /camera/infra1/image_rect_raw/compressed
+  tagtopic: /detector1/tags
+  rig_body: rig
+
+cam1:
+ camera_model: pinhole
+ # fx,fy,cx,cy
+ intrinsics: [647.2843627929688, 647.2843627929688,  644.4448852539062, 360.70361328125]
+ distortion_model: plumb_bob
+ distortion_coeffs: [0, 0, 0, 0, 0]
+ resolution: [1280, 720]
+ rostopic: /camera/infra2/image_rect_raw/compressed
+ tagtopic: /detector2/tags
+ rig_body: rig

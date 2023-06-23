@@ -1,0 +1,17 @@
+<launch>
+
+    <include file="$(find realsense2_camera)/launch/demo_d435.launch">
+    </include>
+
+    <include file="$(find tagslam)/launch/tagslam_online_d435_rgb.launch">
+        <arg name="run_online" value="true"/>
+    </include>
+
+    <include file="$(find tagslam)/launch/apriltag_detector_node_d435_rgb.launch">
+    </include>
+
+    <node name="tagslam_example_rviz" pkg="rviz" type="rviz" args="-d $(find tagslam)/online/d435_rgb/tagslam_online.rviz" required="true" />
+
+
+</launch>
+
