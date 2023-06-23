@@ -51,7 +51,7 @@ rosservice call /tagslam/dump
 ```
 建图后的tag信息存放在
 /home/usr/.ros路径下的poses.yaml
-![描述1](image\tagslam\edit\建图路径.png)
+![描述1](image/tagslam/edit/建图路径.png)
 若下次使用tagslam需要使用上一次构建好的地图，将tagslam_root/src/tagslam/online下面不同相机的tagslam.yaml中的tags用poses.yaml中的tags替换。
 
 ---
