@@ -24,7 +24,7 @@ docs： https://berndpfrommer.github.io/tagslam_web
 roslaunch tagslam tagslam_online_usbcam_all.launch
 ```
 
-**使用T265（双目）实时运行tagslam**  
+**使用T265实时运行tagslam(融合t265自带odom,融合信息见tagslam/online/t265/tagslam.yaml)**  
 
 ```shell
 roslaunch tagslam tagslam_online_t265_all.launch
@@ -117,7 +117,7 @@ rs-enumerate-devices -c
 ```
 
 5. **tagslam/online/t265/camera_poses.yaml**  
-此文件存放了相机的相对于rig的坐标转换,一般默认以下值即可，即使有多个摄像机，只需要声明其中一个的位姿即可，大部分情况下不需要修改此文件
+此文件存放了相机的相对于rig的坐标转换,一般默认以下值即可，若有多个相机，第一次使用时只指定一个相机即可，第一次识别tags后，通过rosservice call /tagslam/dump获取系统标定的camera_pose.yaml来获取相机之间的位姿和R 矩阵（噪声协方差矩阵逆矩阵的平方根）
 ```
 cam0:
   pose:
@@ -140,5 +140,6 @@ cam0:
 
 6. **tagslam/online/t265/tagslam.yaml**  
 此文件存放了tagslam的初始化数据，里面包含较多的信息和类型，请详见tagslam.yaml中的相关注释
-https://berndpfrommer.github.io/tagslam_web/input_files/ 也有较为详细的解释
-特别注意其中的tags，即代表了地图中的tag的坐标和位姿，如果需要使用此前实时建图得到的tags信息，将.ros/poses.yaml中的tags替换掉tagslam.yaml中的tags即可
+https://berndpfrommer.github.io/tagslam_web/input_files/ 也有较为详细的解释  
+特别注意其中的tags，即代表了地图中的tag的坐标和位姿，如果需要使用此前实时建图得到的tags信息，将.ros/poses.yaml中的tags替换掉tagslam.yaml中的tags即可  
+若要融合其他方式得到的odom信息，请参考tagslam/online/t265/tagslam.yaml
