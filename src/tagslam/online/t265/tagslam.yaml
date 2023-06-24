@@ -95,3 +95,14 @@ bodies:
      odom_angular_acceleration_noise_max: 40.0
      odom_translation_noise: 0.3
      odom_rotation_noise: 0.3
+     T_body_odom:
+       position:
+         x: 0.000
+         y: 0.032
+         z: 0.000
+       rotation:
+         x:  1.21793871
+         y: -1.20341061
+         z:  1.21309601
+
+
