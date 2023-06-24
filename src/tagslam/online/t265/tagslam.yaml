@@ -26,7 +26,7 @@ tagslam_parameters:
 # tagslam tries to line them up as well as possible. Expect larger errors
 # because the data is not truly synchronous.
 # 以近似方式同步数据。这将允许在未同步的数据上运行TagSLAM，但要注意，如果相机或物体快速移动，缺乏同步通常会导致错误增加。
-  use_approximate_sync: false
+  use_approximate_sync: true
 body_defaults:
   position_noise: 0.05
   rotation_noise: 0.01
@@ -87,3 +87,11 @@ bodies:
      is_static: false
      type: simple
      odom_frame_id: body_rig
+     odom_topic: "/camera/odom/sample"
+     odom_frame_id: "camera_pose_frame" #child frame of the odom topic
+     odom_acceleration_noise_min: 5.0
+     odom_acceleration_noise_max: 40.0
+     odom_angular_acceleration_noise_min: 5.0
+     odom_angular_acceleration_noise_max: 40.0
+     odom_translation_noise: 0.3
+     odom_rotation_noise: 0.3
